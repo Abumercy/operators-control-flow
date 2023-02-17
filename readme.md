@@ -1,46 +1,20 @@
 <!-- Question one -->
 
 1. Arithmetic Operators are:
-	+
-	- 
-	* 
-	/ 
-	% 
-	** 
-	++ 
-	--
+	+,		-,		*,		/, 		%,		**,			++,		--
 
 2.	Assignment Operators are:
-	= 
-	+= 
-	-= 
-	/= 
-	*= 
-	%=
+	=,		+=, 	-=, 		/=, 
+		*=, 	%=
 
 3.	Comparison Operators are:
-	< 
-	> 
-	<= 
-	>= 
-	!=
-	!==
-	==
-	===
+	<, 		>, 		<=,		>=,		!=,		!==,		==,		===
 
 4.	Logical Operators are:
-	&&
-	||
-	!
+	&&,		||,		!
 
 5.	Bitwise Operators are:
-	&	
-	|	
-	^	
-	~	
-	<<	
-	>>	
-	>>>
+	&,		|,		^,		~,		<<,		>>,		>>>
 
 
 <!-- Question 2 -->
