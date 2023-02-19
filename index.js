@@ -13,8 +13,21 @@ if (studentGroup === "SCIENCE") {
 } else if (studentGroup === "ARTS") {
   console.log(generalSubjects + ", " + artsSubjects);
 } else {
-  console.log(generalSubjects);
+  console.log(generalSubjects);  
 }
 
 // Question 5
-
+function findNearestPowerOfTwo(num) {
+  let pwr = 1;
+  while (pwr < num) {
+    pwr *= 2;
+  }
+  if (pwr - num > num - pwr / 2) {
+    pwr /= 2;
+  }
+  console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`);
+  return pwr;
+}
+findNearestPowerOfTwo(10); 
+findNearestPowerOfTwo(40); 
+findNearestPowerOfTwo(50); 
